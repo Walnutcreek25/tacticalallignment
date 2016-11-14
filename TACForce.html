@@ -1,0 +1,99 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>TA-Join TAC Force</title>
+<link href="Helias_styles.css" rel="stylesheet" type="text/css" />
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+</head>
+
+<body>
+<img src="Banner.jpg" width="760" height="100" alt="Tactical Allignment Banner" /><br />
+<ul id="TacticalAllignment" class="MenuBarHorizontal">
+  <li><a href="Index.html">Home</a></li>
+  <li><a href="TACForcee.html">TAC Force</a></li>
+  <li><a href="TA_Accessories.html">Tactical Accessories</a></li>
+  <li><a class="MenuBarItemSubmenu" href="TA_Apparel.html">Tactical Apparel</a>
+    <ul>
+      <li><a href="TA_Men's.html">Tactical Men</a></li>
+      <li><a href="TA_Women's.html">Tactical Women</a></li>
+    </ul>
+  </li>
+</ul>
+<p><br />
+</p>
+<hr />
+<form action="" method="post" name="feedback" id="feedback">
+  <table width="553" height="351" class="form_table">
+    <tr>
+      <th colspan="2" scope="col">Please sign up to be apart of the TAC Force</th>
+    </tr>
+    <tr>
+      <td width="296"><input name="required" type="hidden" id="required" value="first_name, last_name, email" />
+        First Name*</td>
+      <td width="317"><input name="first_name" type="text" id="first_name" size="40" maxlength="100" /></td>
+    </tr>
+    <tr>
+      <td>Last Name*</td>
+      <td><input name="last_name" type="text" id="last_name" size="40" maxlength="100" /></td>
+    </tr>
+    <tr>
+      <td>E-mail*</td>
+      <td><input name="email" type="text" id="email" size="40" maxlength="100" /></td>
+    </tr>
+    <tr>
+      <td>I would like to receive your newsletters.</td>
+      <td><p>
+        <label>
+          <input type="radio" name="newsletters" value="positive" id="newsletters_0" />
+          Yes</label>
+        <br />
+        <label>
+          <input type="radio" name="newsletters" value="negative" id="newsletters_1" />
+          No</label>
+        <br />
+      </p></td>
+    </tr>
+    <tr>
+      <td>I learned about you from:</td>
+      <td><select name="select" id="select">
+        <option value="none">Select from list:</option>
+        <option value="friend">From a friend</option>
+        <option value="internet">Internet search</option>
+</select></td>
+    </tr>
+    <tr>
+      <td><label>Comments</label>
+        :</td>
+      <td><textarea name="comments" cols="50" rows="4" id="comments"></textarea></td>
+    </tr>
+    <tr>
+      <td>Do you support the U.S. Military?</td>
+      <td><p>
+        <label>
+          <input type="radio" name="Support" value="yes" id="Support_0" />
+          Yes</label>
+        <br />
+        <label>
+          <input type="radio" name="Support" value="no" id="Support_1" />
+          No</label>
+        <br />
+      </p></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td><input type="submit" name="Submit" id="Submit" value="Submit" />
+      <input type="reset" name="Reset" value="Reset" /></td>
+    </tr>
+    <tr>
+      <td>*Required fields</td>
+      <td>&nbsp;</td>
+    </tr>
+  </table>
+</form>
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("TacticalAllignment", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+</body>
+</html>
